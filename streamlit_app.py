@@ -4,12 +4,12 @@ import datetime
 # ऐप की थीम और टाइटिल सेट करना (Military Theme Look)
 st.set_page_config(page_title="Mission Khadakwasla", page_icon="🎖️", layout="centered")
 
-# डार्क मिलिट्री लुक और बैकग्राउंड में भारतीय ध्वज (Indian Flag Watermark) के लिए कस्टम CSS
+# 100% वर्किंग विकिपीडिया फ्लैग लिंक के साथ डार्क मिलिट्री लुक
 st.markdown("""
     <style>
     .main { 
-        background-image: linear-gradient(rgba(11, 12, 16, 0.85), rgba(11, 12, 16, 0.85)), 
-                          url('https://images.unsplash.com/photo-1532375810709-75b1da00537c?q=80&w=1000&auto=format&fit=crop');
+        background-image: linear-gradient(rgba(11, 12, 16, 0.88), rgba(11, 12, 16, 0.88)), 
+                          url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png');
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
